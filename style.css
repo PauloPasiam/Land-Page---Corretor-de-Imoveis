@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url("img/bg-1.jpg") ;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.cabecalho-imagem{
+ height: 40px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap:32px;
+ }
+ 
+ .cabecalho-menu-item{
+    font-family: 'Lato', sans-serif;
+    color: #5C4028;
+    font-weight: 400;
+    font-size: 18px;
+ }
+ .conteudo{
+    margin-bottom: 48px;
+ }
+ .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px 50px;
+ }
+ .conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+
+ }
+ .conteudo-principal-escrito-titulo{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 32px;
+    color:#996633
+ }
+.conteudo-principal-escrito-subtitulo{
+    font-weight: 400;
+}
+
+.conteudo-principal-botao{
+    background-color: #996633 ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4x rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size:medium;
+    color: white;
+}
+.conteudo-principal-botao:hover{
+    background-color:#5C4028;
+}
+
+.conteudo-secundario{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:#996633;
+    padding: 40px 50px;
+   
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color:#996633;
+    
+    
+}
