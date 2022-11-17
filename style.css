@@ -154,7 +154,8 @@ align-items: center;
 
 
 .contato{
-    background-color: var(--cor2);
+    /* background-color: var(--cor2); */
+    background: linear-gradient(68.15deg,#4b3218 16.62%,#996633 85.61%);
     color: white;
     display: flex;    
     justify-content: space-between;
@@ -171,7 +172,8 @@ align-items: center;
 }
 
 .rodape{
-    background-color: var(--cor2);
+    /* background-color: var(--cor2); */
+    background: linear-gradient(68.15deg,#4b3218 16.62%,#996633 85.61%);
     display: flex;
     flex-direction: column;
     align-items: center;
