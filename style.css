@@ -18,8 +18,10 @@
 body{
     font-size: 100%;
     background-image: url("img/bg-1.jpg") ;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 125vh;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-align: right;
@@ -108,6 +110,18 @@ body{
     padding: 0px 50px;
    
 }
+.h2-quem-sou{
+    align-items: center;
+    padding: 40px;
+    font-family: 'Cinzel', serif;
+    color: var(--cor2);
+    text-align: center;
+    gap:30px;
+}
+
+.quem-sou-img{
+    padding: 30px;
+}
 .quem-sou{
     background-color: white;
     display: flex;
@@ -116,6 +130,7 @@ body{
     text-align: center;
     gap:30px;
 }
+
 .imoveis{
     display: flex;
     align-items: center;
@@ -129,27 +144,37 @@ body{
 
 }.imoveis-grade{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
-    margin-bottom: 80px;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+    /* margin-bottom: 80px; */
 
 }
 .imoveis-grade-01{
  display: flex;
+ text-align: center;
  flex-direction: column;
  align-items: center;
+ max-width: 20%;
 }
 
 .imoveis-grade-02{
 display: flex;
+text-align: center;
 flex-direction: column;
 align-items: center;
+max-width: 20%;
+
 }
 
 .imoveis-grade-03{
 display: flex;
+text-align: center;
 flex-direction: column;
 align-items: center;
+max-width: 20%;
 }
 
 
@@ -164,11 +189,10 @@ align-items: center;
 }
 .contato-contatos{
     text-align: left;
-    
 }
 .contato-menu{
     color: white;
-    
+
 }
 
 .rodape{
@@ -179,7 +203,52 @@ align-items: center;
     align-items: center;
     font-size: smaller;
     color: white;
+}
+
+
+/* Mobile */
+@media (max-width: 488px){
+
+.quem-sou{
+flex-direction: column;
+margin-bottom: 0.5;
+gap: 0;
+
+}    
+.quem-sou-img{
+    width: 100%;
+    margin: 2em 0;
+}
+.imoveis-grade{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+}
+.imoveis-grade-01{
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+.imoveis-grade-02{
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+.imoveis-grade-03{
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+
+
+
+.contato{
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
     
-    
-    
+}
+
+
+
+
 }
